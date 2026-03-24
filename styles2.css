@@ -1,0 +1,94 @@
+
+.info-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+
+.card-image {
+    border: 2px solid blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.cards p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 60px 40px;
+}
+
+.quote-section, p {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.thor {
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+}
+
+.cta {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    margin: 15px 10px;
+}
+
+.main-text {
+    color: white;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.smaller-text {
+    color: #d0e4ff;
+    margin: 0;
+    font-size: small;
+    text-decoration: solid;
+}
+
+.cta-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    font-size: small;
+}
+
+.footer p {
+    font-size: small;
+    align-items: baseline;
+}
